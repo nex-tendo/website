@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Official website of Nextendo Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nex-tendo/website.git"
+  },
+  "author": "cedkeChat01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nex-tendo/website/issues"
+  },
+  "homepage": "https://github.com/nex-tendo/website#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
