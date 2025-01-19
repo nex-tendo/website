@@ -2,8 +2,133 @@
 
 <div class="main-content">
     <main>
-        <h1>Progress</h1>
+        <h1 style="color: #1e90ff;"><%= languageData.progress.title %></h1>
+        <p>Nintendo 3DS & Nintendo Wii U Games Progress.</p>
+        <div class="card-container">
+            <div class="card">
+              <div class="card-content">
+                <h3 class="card-title">NEX</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill1"></div>
+                </div>
+                <div class="progress-text" id="progressText1">Progression: 0%</div>
+
+                <div class="task">
+                    <div class="checkmark empty"></div>
+                    <span class="task-text">PRUDP Server</span>
+                </div>
+                <div class="task">
+                    <div class="checkmark empty"></div>
+                    <span class="task-text">HPP Server</span>
+                </div>
+                <div class="task">
+                    <div class="checkmark empty"></div>
+                    <span class="task-text">RMC</span>
+                </div>
+                <div class="task">
+                    <div class="checkmark empty"></div>
+                    <span class="task-text">Kerberos Authentication</span>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="card-content">
+                <h3 class="card-title">NNAS (Nextendo Account Service)</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill2"></div>
+                </div>
+                <div class="progress-text" id="progressText2">Progression: 0%</div>
+
+                <div class="task">
+                    <div class="checkmark completed"></div>
+                    <span class="task-text">Custom EULA</span>
+                </div>
+                <div class="task">
+                    <div class="checkmark empty"></div>
+                    <span class="task-text">Create account</span>
+                </div>
+                <div class="task">
+                    <div class="checkmark empty"></div>
+                    <span class="task-text">Login account</span>
+                </div>
+                <div class="task">
+                    <div class="checkmark empty"></div>
+                    <span class="task-text">Create NEX Account</span>
+                </div>
+                <div class="task">
+                    <div class="checkmark empty"></div>
+                    <span class="task-text">Miis</span>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="card-content">
+                <h3 class="card-title">Animal Crossing: New Leaf</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill3"></div>
+                </div>
+                <div class="progress-text" id="progressText3">Progression: 0%</div>
+
+                <div class="task">
+                    <div class="checkmark in-progress"></div>
+                    <span class="task-text">Go to the islands</span>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="card-content">
+                <h3 class="card-title">Kirby Clash Deluxe</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill4"></div>
+                </div>
+                <div class="progress-text" id="progressText4">Progression: 0%</div>
+
+                <div class="task">
+                    <div class="checkmark empty"></div>
+                    <span class="task-text">Recruit wandering adventurers</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                  <h3 class="card-title">Angry Birds Star-Wars</h3>
+                  <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill5"></div>
+                  </div>
+                  <div class="progress-text" id="progressText5">Progression: 0%</div>
+
+                  <div class="task">
+                      <div class="checkmark empty"></div>
+                      <span class="task-text">Play online</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-content">
+                  <h3 class="card-title">Website</h3>
+                  <div class="progress-bar">
+                      <div class="progress-fill" id="progressFill6"></div>
+                  </div>
+                  <div class="progress-text" id="progressText6">Progression: 0%</div>
+  
+                  <div class="task">
+                      <div class="checkmark in-progress"></div>
+                      <span class="task-text">Home page</span>
+                  </div>
+                  <div class="task">
+                    <div class="checkmark completed"></div>
+                    <span class="task-text">Progress page</span>
+                  </div>
+                </div>
+              </div>
+          </div>
     </main>
 </div>
+<script src="/js/script.js"></script>
 
 <%- include('partials/footer') %>

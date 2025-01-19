@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= languageData.lang %>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nextendo Network</title>
-    <link rel="stylesheet" href="/css/home.css"> 
+    <link rel="stylesheet" href="/css/home.css">
 </head>
 <header>
-    <a class="title" href="/">Nextendo Network</a>
+    <a class="title" href="/?lang=<%= languageData.lang %>">Nextendo Network</a>
     <nav>
-        <a href="/">Home</a>
-        <a href="/progress">Progress</a>
+        <a href="/?lang=<%= languageData.lang %>"><%= languageData.home.home %></a>
+        <a href="/progress?lang=<%= languageData.lang %>"><%= languageData.progress.progress %></a>
+        <div class="logo-container">
+            <img src="/img/logo.png" alt="Logo" id="logo">
+            <select id="language-select">
+                <option value="en" <%= languageData.lang === 'en' ? 'selected' : '' %>>English</option>
+                <option value="fr" <%= languageData.lang === 'fr' ? 'selected' : '' %>>Français</option>
+            </select>
+        </div>
     </nav>
 </header>

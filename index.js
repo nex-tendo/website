@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const logger = require('./logger');
 const app = express();
 require('dotenv').config();
 
@@ -19,5 +20,5 @@ app.use((req, res) => {
 });
 
 app.listen(process.env.HTTP_PORT, () => {
-    console.log(`Website was started on http://localhost:${process.env.HTTP_PORT}`);
+    logger.info(`Website was started on http://localhost:${process.env.HTTP_PORT}`);
 });
