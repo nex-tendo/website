@@ -80,7 +80,7 @@ setTimeout(() => {
   // Animal Crossing New Leaf
   const progressFill3 = document.getElementById('progressFill3');
   const progressText3 = document.getElementById('progressText3');
-  updateProgressBar(progressFill3, progressText3, 0);
+  updateProgressBar(progressFill3, progressText3, 15);
 
   // Kirby Clash Deluxe
   const progressFill4 = document.getElementById('progressFill4');
@@ -95,5 +95,5 @@ setTimeout(() => {
   // Website
   const progressFill6 = document.getElementById('progressFill6');
   const progressText6 = document.getElementById('progressText6');
-  updateProgressBar(progressFill6, progressText6, 20);
+  updateProgressBar(progressFill6, progressText6, 25);
 }, 1000);
