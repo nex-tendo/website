@@ -4,11 +4,22 @@
     <main>
         <h1><%= languageData.home.firsttitle %><br><span><%= languageData.home.secondtitle %></span></h1>
         <p><%= languageData.home.description %></p>
-    </main>
-    <main>
-        <h1>What is the purpose of the service ?</h1>
-        <p>This service allows you to play online again on the Nintendo 3DS and Nintendo Wii U with all the games that support online. 
-            <br>We will probably do it for the Nintendo Switch when it closes, but it is not sure.</p>
+    <div class="social">
+        <a href="#" class="btn"><%= languageData.home.readmore %></a>
+        <a class="redhover" href="https://discord.gg/QB5YFJfsFJ"><i class="fa-brands fa-discord"></i></a>
+        <a class="redhover" href="https://github.com/nex-tendo"><i class="fa-brands fa-github"></i></a>
+        <a class="redhover" href="https://github.com/InnoverseTeam"><i class="fa-sharp fa-solid fa-heart"></i></a>
+    </div>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+        <script>
+            const canvas = document.getElementById('myCanvas');
+            const context = canvas.getContext('2d');
+            const img = new Image();
+            img.src = '/img/3ds.png';
+            img.onload = function () {
+                context.drawImage(img, 0, 0);
+            };
+        </script>
     </main>
 </div>
 <script src="/js/script.js"></script>

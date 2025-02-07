@@ -36,6 +36,32 @@ h1 span {
     color: #1e90ff;
 }
 
+.social {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.social .btn {
+    padding: 18px 50px;
+    background-color: #558bff;
+    font-weight: bold;
+}
+
+.social a {
+    margin: 0 5px;
+    color: #ffffff;
+    padding: 20px 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+  
+.social .btn:hover {
+    background-color: #3970b9;
+}
+
 p {
     font-size: 18px;
 }
